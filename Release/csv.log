@@ -1,28 +1,18 @@
-﻿Построение начато 20.03.2015 22:09:20.
-     1>Проект "c:\documents and settings\administrator\my documents\visual studio 2010\Projects\csv\csv\csv.vcxproj" в узле 2 (целевые объекты build).
-     1>PrepareForBuild:
-         Создание каталога "c:\documents and settings\administrator\my documents\visual studio 2010\Projects\csv\Release\".
-       InitializeBuildStatus:
-         Создание "Release\csv.unsuccessfulbuild", так как было задано "AlwaysCreate".
-       ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\boost\include\boost-1_57" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp sha224.cpp
+﻿Build started 16.05.2015 3:38:49.
+     1>Project "C:\Users\goshu_000\Documents\Visual Studio 2013\Projects\csv\csv\csv.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\boost\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp sha224.cpp
          main.cpp
+     1>main.cpp(148): warning C4018: '<' : signed/unsigned mismatch
          sha224.cpp
-     1>sha224.cpp(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371): см. объявление "sprintf"
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\documents and settings\administrator\my documents\visual studio 2010\Projects\csv\Release\csv.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\boost\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\csv.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\documents and settings\administrator\my documents\visual studio 2010\Projects\csv\Release\csv.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\documents and settings\administrator\my documents\visual studio 2010\Projects\csv\Release\csv.lib" /MACHINE:X86 Release\main.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\goshu_000\Documents\Visual Studio 2013\Projects\csv\Release\csv.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\boost\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\goshu_000\Documents\Visual Studio 2013\Projects\csv\Release\csv.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\goshu_000\Documents\Visual Studio 2013\Projects\csv\Release\csv.lib" /MACHINE:X86 /SAFESEH Release\main.obj
          Release\sha224.obj
-         Создание кода
-         Создание кода завершено
-         csv.vcxproj -> c:\documents and settings\administrator\my documents\visual studio 2010\Projects\csv\Release\csv.exe
-       Manifest:
-         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\documents and settings\administrator\my documents\visual studio 2010\Projects\csv\Release\csv.exe;#1" /manifest Release\csv.exe.intermediate.manifest
-       FinalizeBuildStatus:
-         Файл "Release\csv.unsuccessfulbuild" удаляется.
-         Обращение к "Release\csv.lastbuildstate".
-     1>Построение проекта "c:\documents and settings\administrator\my documents\visual studio 2010\Projects\csv\csv\csv.vcxproj" завершено (целевые объекты build).
+         Generating code
+         Finished generating code
+         csv.vcxproj -> C:\Users\goshu_000\Documents\Visual Studio 2013\Projects\csv\Release\csv.exe
+     1>Done Building Project "C:\Users\goshu_000\Documents\Visual Studio 2013\Projects\csv\csv\csv.vcxproj" (Build target(s)).
 
-Построение успешно завершено.
+Build succeeded.
 
-Затраченное время: 00:00:02.64
+Time Elapsed 00:00:03.76
